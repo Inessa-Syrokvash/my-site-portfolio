@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>I.Syrakvash</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/9c65085b39.js" crossorigin="anonymous"></script> 
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+
+</head>
+<body>
+
+<!-- Button Back -->
+<div class="arrow-up">
+	<a href="#"><i class="fas fa-arrow-up"></i></a>
+</div>
+
+<!-- Change lang -->
+<div class="langList">
+	<button id="en" class="translate">
+		<img src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Lang%20en.png?v=1708752853697" alt="En" width="40px" height="40px">
+	</button>
+
+	<button id="ru" class="translate"><a href="indexRu.html">
+		<img src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Lang%20ru.png?v=1708752857402" alt="Ru" width="40px" height="40px">
+	</a></button>
+</div>
+		
+
+<!-- Snow -->
+		<div id="particles-js"></div>
+
+<!-- Cursor -->
+		<div class="follow-cursor"></div>
+			
+<!-- Navbar -->
+		<div class="navContainer">
+			<nav class="nav">
+				<a class="navName" href="#">- Inessa Syrakvash -</a>
+				<a class="navLink" href="#sectionAbout">About</a>
+				<a class="navLink" href="#sectionPortfolio">Portfolio</a>
+				<a class="navLink" href="#sectionSkills">Skills</a>
+				<a class="navLink" href="#sectionContacts">Contacts</a>
+			</nav>
+		</div>
+		
+<!-- About -->
+		<section id="sectionAbout">
+			<div class="containerAll">
+	<!-- Исчезающий блок - первый -->
+				<div class="container animal">
+					<h1 class="header "><span>Hi! My name is Inessa!</span></h1>
+					<div class="line"></div>
+					<h3 class="sub-header"><span>- I'm a frontend developer -</span></h3>
+				</div> 
+	<!-- Постоянный блок - второй -->
+				<div class="containerTwo">
+					<div class="containerTwoText">
+						<h2 class="headerTwo"><span>Welcome to my website!</span></h2>
+						<p class="sub-headerTwo"><span>- Let's create a user-friendly website with a touch of magic. -</span></p>
+						<button class="btnAnimal" id="btnAbout"><a href="/">About</a></button>
+					</div>
+					<div class="containerTwoImg">
+						<p id="parHello"><span>- About -</span><br>
+							Hi! My name is Inessa! I am a frontend developer. 
+							I am passionate about creating beautiful and functional websites. 
+							My skill set includes using advanced technologies such as HTML 5, 
+							CSS 3 and JavaScript to create a unique and attractive user interface.
+							I have also mastered Bootstrap, which allows me to quickly 
+							and efficiently to develop responsive websites. I'm creative and 
+							attentive to detail, so I often use animation to create effects that 
+							bring my work to life. I love to do the little things, to perfect everything.
+							I am currently studying React in depth to 
+							expand my skills and to create more complex web applications. 
+							I would be happy to provide my services and take part in interesting projects!
+						</p>
+						<img id="myPhoto" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/image-23-01-24-03-16.png?v=1708752818219" alt="MyPhoto">
+					</div>
+				</div>
+			</div>
+
+<!-- HR animate -->
+			<div class="boxBetween"></div>
+		</section>
+		
+
+<!-- Portfolio -->
+<section id="sectionPortfolio">
+	<div class="portfolioTop">
+
+		<header class="hero-section">
+			<div class="containerPortfolio">
+				<div class="hero-wrapper">
+					<img class="hero" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/bg%C2%A02.jpg?v=1708752809621" alt="Alt">
+				</div>
+				<div class="main-header">
+					<h2 class="main-title">Portfolio</h2>
+					<p class="main-par">- You can see my work here. 
+						There are a lot of exciting opportunities in the world, 
+						and we can always do more together. -</p>
+				</div>
+			</div>
+		</header>
+	
+		<div class="portfolio">
+			<div class="containerPortfolio">
+				<main class="gallery">
+
+					<div class="gallery__left">
+						<div class="text-block gallery__item" style="border-top-left-radius: 25px;">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://cerulean-polite-meter.glitch.me/" target="_blank">Website for a creative illustrator</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20Marina3.png?v=1708752884651" alt="Alt">
+						</div>
+
+						<div class="text-block gallery__item">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://wealthy-smiling-constrictor.glitch.me/" target="_blank">Cafe "Drinks & Desserts"</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script / GSAP -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/2%20Drinks%20%26%20Desserts3.png?v=1708752887672" alt="Alt">
+						</div>
+	
+						<div class="text-block gallery__item" style="border-bottom-left-radius: 25px;">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://saber-luxurious-asteroid.glitch.me/" target="_blank">Yoga studio "Yoga Village"</a></h2>
+							</div>
+							<p class="text-block__p">- Bootstrap / HTML 5 / CSS 3 -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/3%20Yoga%20Village3.png?v=1708752889457" alt="Alt">
+						</div>
+					</div>
+
+					<div class="gallery__straight">
+						<div class="text-block gallery__item">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://amethyst-nebula-lady.glitch.me/" target="_blank">Recipe search</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/4%20Search%20for%20recipes3.png?v=1708752892743" alt="Alt">
+						</div>
+
+						<div class="text-block gallery__item">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://telling-terrific-bread.glitch.me/" target="_blank">Countdown to the premiere</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/5%20Old%20Town3.png?v=1708752894540" alt="Alt">
+						</div>
+
+						<div class="text-block gallery__item">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://shaded-thunder-snowboard.glitch.me/" target="_blank">Weather forecast</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script / GSAP / API -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/6%20Weather3.png?v=1708752898789" alt="Alt">
+						</div>
+
+						<div class="text-block gallery__item">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://flowery-level-printer.glitch.me/" target="_blank">Vacation Cost Calculator</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/7%20Vication3.png?v=1708752901632" alt="Alt">
+						</div>
+					</div>
+
+					<div class="gallery__right">
+						<div class="text-block gallery__item" style="border-top-right-radius: 25px;">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://closed-understood-iron.glitch.me/" target="_blank">Motivation for today</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script / GSAP -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/8%20Motivation3.png?v=1708752904338" alt="Alt">
+						</div>
+
+						<div class="text-block gallery__item">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://resolute-woolen-baroness.glitch.me/" target="_blank">Gym timer</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/9%20Gym3.png?v=1708752908613" alt="Alt">
+						</div>
+
+						<div class="text-block gallery__item" style="border-bottom-right-radius: 25px;">
+							<div class="text__anime">
+								<h2><a class="text-block__h" href="https://flannel-acidic-neighbor.glitch.me/" target="_blank">To do list</a></h2>
+							</div>
+							<p class="text-block__p">- HTML5 / CSS 3 / Java Script -</p>
+							<img class="text-block__i" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/10%20To%20do%20list3.png?v=1708752959668" alt="Alt">
+						</div>
+					</div>
+				</main>
+			</div>
+		</div> 
+	</div>
+
+<!-- HR animate -->
+		<div class="boxBetween"></div>
+	</section>
+
+<!-- Skills -->
+	<section id="sectionSkills">
+<!-- Snow -->
+		<div id="particles-jsTwo"></div>
+
+		<div class="containerSkills">
+			<div class="skillsHeader">
+				<h2 class="skillsTitle">Skills</h2> <br>
+				<p class="skillsPar">- These are my skills that make me successful, 
+					bring me great satisfaction and keep me going. I am working on getting more 
+					and more badges in this section! -</p>
+				<button class="btnAnimalTwo" id="btnSkills"><a href="/">A little more</a></button>
+				<img class="skillsImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Desk.jpg?v=1708752812429" alt="Photo">
+				<p id="skillsParNone">- I want to give a special thanks to my teacher 
+					and founder of Can She Code School, Alla.  She has taught me valuable skills and 
+					gives me incredible motivation throughout, it was with her that I began my journey 
+					of exploring the unknown. <br>
+					And a special thanks to my brother Sergey, who became my inspiration, 
+					because I was always fascinated by his classes, even when he just knew 
+					how to count with a column)) -</p>
+			</div>
+
+			<div class="skillsWrapper">
+				<div class="skills">
+					<div class="skillsOne">
+						<div id="js" style="border-top-left-radius: 25px;">
+							<img class="jsImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20JS.png?v=1708752847778" alt="JS">
+							<p class="skillsP">- Java Script -</p>
+						</div>
+						<div id="gsap">
+							<img class="gsapImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20GSAP.png?v=1708752843198" alt="GSAP">
+							<p class="skillsP">- GSAP -</p>
+						</div>
+					</div>
+					<div class="skillsTwo">
+						<div id="html" style="border-top-right-radius: 25px;">
+							<img class="htmlImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20html.png?v=1708752846158" alt="HTML">
+							<p class="skillsP">- HTML 5 -</p>
+						</div>
+						<div id="css">
+							<img class="cssImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20css%203.png?v=1708752839186" alt="CSS">
+							<p class="skillsP">- CSS 3 -</p>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<div class="skillsThree">
+						<div id="api" style="border-bottom-left-radius: 25px;">
+							<img class="apiImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20API.png?v=1708752833416" alt="API">
+							<p class="skillsP">- API -</p>
+						</div>
+						<div id="bootstrap" style="border-bottom-right-radius: 25px;">
+							<img class="bootstrapImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/1%20Bootstrap.png?v=1708752836951" alt="Bootstrap">
+							<p class="skillsP">- Bootstrap 5 -</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="certificates">
+			<h2 class="certificatesTitle">Certificates</h2>
+			<div class="certificatesImg">
+				<img src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/I.S.%20html%20css.png?v=1708752932153" alt="Certificates">
+				<img src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/I.S.%20bootstrap.png?v=1708752927353" alt="Certificates">
+				<img src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/I.S.%20gsap%20figma.png?v=1708752928940" alt="Certificates">
+                <img src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/I.S.%20js.png?v=1708752933840" alt="Certificates">
+			</div>
+		</div>
+
+<!-- HR animate -->
+		<div class="boxBetween"></div>
+	</section>
+        
+
+<!-- Contact -->
+    <section id="sectionContacts">
+		<div class="containerContact">
+			<div class="contactOne">
+				<h2 class="contactTitle">Contacts</h2>
+				<p id="contactPar">- Let's make great and creative projects. 
+					Together we will create something unique. 
+					Contact me through the form or at the contacts below. -</p>
+
+					<div class="instagram">
+						<a href="https://www.instagram.com/inesska.0486/" target="_blank"><img class="instagramImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Social%20Instagram%202.png?v=1708752862967" alt="Instagram" width="50px"></a>
+						<p><a id="socialI" href="https://www.instagram.com/inesska.0486/" target="_blank">Instagram</a></p>
+					</div>
+					<div class="telegram">
+						<a href="https://t.me/inesska0486" target="_blank"><img class="telegramImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Social%20Telegram%202.png?v=1708752866917" alt="Telegram" width="50px"></a>
+						<p><a id="socialT" href="https://t.me/inesska0486" target="_blank">Telegram</a></p>
+					</div>
+					<div class="ld">
+						<a href="#"><img class="LdImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Social%20Ld%202.png?v=1708752864516" alt="LinkedIn" width="50px"></a>
+						<p><a id="socialL" href="/">LinkedIn</a></p>
+					</div>
+					<div class="email">
+						<a href="mailto:inesska.0486@gmail.com"><img class="emailImg" src="https://cdn.glitch.global/ce747322-bc63-4436-b4da-8295aca4cd94/Social%20email.png?v=1708752859297" alt="Email" width="30px"></a>
+						<p><a id="socialE" href="mailto:inesska.0486@gmail.com"><button class="socialBtn">- Inessa Syrakvash -<br><span>email: inesska.0486@gmail.com</span></button></a></p>
+					</div>
+			</div>
+			
+			<div class="contactTwo">
+				<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyrknvp" method="post">
+					<fieldset id="fs-frm-inputs">
+						<label for="full-name">Full Name</label>
+						<input type="text" name="name" id="full-name" placeholder="First and Last" required="" autocomplete="on">
+						<label for="email-address">Email Address</label>
+						<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" autocomplete="on">
+						<label for="message">Message</label>
+						<textarea rows="5" name="message" id="message" placeholder="Any suggestions and questions are welcome)))" required="" autocomplete="off"></textarea>
+						<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+					</fieldset>
+					<input type="submit" value="Contact Me" style="background-image: url(https://cdn.glitch.global/648b78cd-a4c6-4434-a45d-b219cf126326/Paper.jpeg?v=1706563037212); background-size: cover; color: #fff4e6;">
+				</form>
+			</div>
+		</div>
+
+    </section>
+
+
+<!-- Footer -->
+    <div class="footer">
+		<hr>
+		<div class="footerTop">
+			<p><a href="#sectionAbout">About</a></p>
+			<p><a href="#sectionPortfolio">Portfolio</a></p>
+			<p><a href="#sectionSkills">Skills</a></p>
+			<p><a href="#sectionContacts">Contacts</a></p>
+		</div>
+	
+		<div class="footerBottom">
+			<p>©  - Inessa Syrakvash -, 2024. All rights reserved</p>
+		</div>
+    </div>
+
+	
+
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
